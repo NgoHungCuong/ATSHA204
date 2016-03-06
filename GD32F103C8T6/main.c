@@ -192,7 +192,7 @@ int main(void)
 	szBuff[3]=0x1b;//so luong byte
 	szBuff[4]=0x16;//bat dau lenh NONCE
 	szBuff[5]=0x00;// mode 0
-	szBuff[6]=0x00; //00 00
+	szBuff[6]=0x00;//00 00
 	szBuff[7]=0x00;
 	
 	for(i=0; i<20; ++i) {
